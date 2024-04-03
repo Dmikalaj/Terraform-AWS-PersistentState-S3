@@ -6,4 +6,4 @@ Sets condition that ports can only be set to 8080 or 80.
 
 Provisions docker image/container and outputs url to the container site when completed.
 
-to verify: aws --profile project s3 ls s3://projectdmbucket9339/terraform.tfstate
+to verify: aws --profile project s3 cp s3://projectdmbucket9339/terraform.tfstate
